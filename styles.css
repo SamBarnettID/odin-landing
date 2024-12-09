@@ -1,0 +1,17 @@
+.header {
+    background-color: navy;
+    color: white;
+}
+
+.header-logo {
+    display: inline-block;
+}
+
+.header-links {
+    display: inline-block;
+    float: right;
+}
+
+a {
+    color: white;
+}
