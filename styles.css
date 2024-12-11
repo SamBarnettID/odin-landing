@@ -1,17 +1,67 @@
-.header {
-    background-color: navy;
-    color: white;
+@font-face {
+    font-family: 'Roboto';
+    src: url('./content/Roboto/Roboto-Regular.ttf');
 }
 
-.header-logo {
-    display: inline-block;
+@font-face {
+    font-family: 'Roboto';
+    src: url('./content/Roboto/Roboto-Bold.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 2px solid red;
+    font-family: Roboto;
+}
+
+.header {
+    background-color: #1f2937;
+    color: white;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+.justify-between {
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-links {
-    display: inline-block;
-    float: right;
+    display: flex;
+    align-items: center;
+}
+
+.header-links a {
+    padding: 0.25rem;
+    align-items: center;
+}
+
+.header-logo {
+    display: flex;
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    font-weight: bold;
 }
 
 a {
     color: white;
+}
+
+.hero {
+    display: flex;
+}
+
+.hero-cta {
+    max-width: 50%;
+}
+
+.hero-image {
+    display: flex;
+    float: right;
 }
